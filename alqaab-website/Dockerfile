@@ -16,4 +16,5 @@ RUN composer install --no-dev --no-scripts --prefer-dist --optimize-autoloader -
     && cp robots.txt favicon.ico public/ \
     && chown -R www-data:www-data storage bootstrap/cache
 COPY deploy/apache.conf /etc/apache2/sites-available/000-default.conf
+RUN a2dismod mpm_event mpm_worker && a2enmod mpm_prefork && apache2ctl -t
 CMD ["sh", "deploy/start.sh"]
