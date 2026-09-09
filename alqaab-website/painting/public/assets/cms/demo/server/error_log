@@ -1,0 +1,7 @@
+[22-Jan-2026 10:59:09 UTC] PHP Warning:  Undefined array key "id" in /home/nehantech/public_html/assets/cms/demo/server/remove-event.php on line 4
+[22-Jan-2026 10:59:10 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home/nehantech/public_html/assets/cms/demo/server/events.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/nehantech/public_html/assets/cms/demo/server/events.php on line 5
+[22-Jan-2026 10:59:10 UTC] PHP Warning:  Undefined array key "event" in /home/nehantech/public_html/assets/cms/demo/server/add-event.php on line 4
+[22-Jan-2026 10:59:10 UTC] PHP Warning:  Undefined array key "event" in /home/nehantech/public_html/assets/cms/demo/server/update-event.php on line 4

@@ -1,0 +1,40 @@
+[09-Jun-2026 02:49:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/sarbodayanepalju/painting.sarbodayanepaljumla.org.np/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/sarbodayanepalju/painting.sarbodayanepaljumla.org.np/config/services.php on line 18
+[09-Jun-2026 02:49:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/sarbodayanepalju/painting.sarbodayanepaljumla.org.np/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/sarbodayanepalju/painting.sarbodayanepaljumla.org.np/config/cache.php on line 18
+[09-Jun-2026 02:49:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/sarbodayanepalju/painting.sarbodayanepaljumla.org.np/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/sarbodayanepalju/painting.sarbodayanepaljumla.org.np/config/database.php on line 18
+[09-Jun-2026 02:49:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/sarbodayanepalju/painting.sarbodayanepaljumla.org.np/config/mail.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sarbodayanepalju/painting.sarbodayanepaljumla.org.np/config/mail.php on line 16
+[09-Jun-2026 02:49:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/sarbodayanepalju/painting.sarbodayanepaljumla.org.np/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sarbodayanepalju/painting.sarbodayanepaljumla.org.np/config/app.php on line 16
+[13-Jun-2026 05:21:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/sarbodayanepalju/painting.sarbodayanepaljumla.org.np/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sarbodayanepalju/painting.sarbodayanepaljumla.org.np/config/app.php on line 16
+[13-Jun-2026 05:21:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/sarbodayanepalju/painting.sarbodayanepaljumla.org.np/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/sarbodayanepalju/painting.sarbodayanepaljumla.org.np/config/services.php on line 18
+[13-Jun-2026 05:22:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/sarbodayanepalju/painting.sarbodayanepaljumla.org.np/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/sarbodayanepalju/painting.sarbodayanepaljumla.org.np/config/database.php on line 18
+[13-Jun-2026 05:22:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/sarbodayanepalju/painting.sarbodayanepaljumla.org.np/config/mail.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/sarbodayanepalju/painting.sarbodayanepaljumla.org.np/config/mail.php on line 16
+[13-Jun-2026 05:22:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/sarbodayanepalju/painting.sarbodayanepaljumla.org.np/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/sarbodayanepalju/painting.sarbodayanepaljumla.org.np/config/cache.php on line 18
