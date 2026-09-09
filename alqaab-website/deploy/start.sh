@@ -19,4 +19,8 @@ chown -R www-data:www-data /data storage bootstrap/cache
 php deploy/initialize.php
 php artisan package:discover --ansi
 php artisan config:cache
+ls -l /etc/apache2/mods-enabled/*mpm*
+a2dismod -f mpm_event mpm_worker
+a2enmod mpm_prefork
+apache2ctl -t
 exec apache2-foreground
