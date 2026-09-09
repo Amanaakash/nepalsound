@@ -31,10 +31,12 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $all_view['setting'] = DB::table('settings')->first();
-        $all_view['contact_count'] = DB::table('contacts')->count();
+        View::composer('*', function ($view) {
+            $all_view['setting'] = DB::table('settings')->first();
+            $all_view['contact_count'] = DB::table('contacts')->count();
 
-        $all_view['common'] = DB::table('commons')->first();
-        View::share(compact('all_view'));
+            $all_view['common'] = DB::table('commons')->first();
+            $view->with('all_view', $all_view);
+        });
     }
 }
